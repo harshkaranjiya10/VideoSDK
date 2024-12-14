@@ -23,7 +23,7 @@ function GameChanging() {
     >
       <div className="h-auto m-auto flex justify-end">
         <div className="flex relative -start-[25%]">
-          <Circle wh="560px" />
+          {/* <Circle wh="560px" /> */}
           {/* <Circle wh="360px" /> */}
           <div className="absolute w-[432px] h-[192px] start-[71%] mt-40">
             <Head />
