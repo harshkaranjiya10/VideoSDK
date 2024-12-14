@@ -2,6 +2,7 @@ import Card from "./Card";
 function GameChanging() {
   return (
     <div
+      className="w-full"
       style={{
         backgroundImage: `
           radial-gradient(circle at 4px 355.67px, rgba(203, 67, 113, 0.6) 0%, transparent 266.91px),
@@ -21,11 +22,11 @@ function GameChanging() {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="h-auto m-auto flex justify-end">
+      <div className="max-w-screen-xl h-auto m-auto flex justify-end">
         <div className="flex relative -start-[25%]">
           {/* <Circle wh="560px" /> */}
           {/* <Circle wh="360px" /> */}
-          <div className="absolute w-[432px] h-[192px] start-[71%] mt-40">
+          <div className="absolute w-[432px] h-[192px] start-[71%] mt-[250px]">
             <Head />
           </div>
         </div>

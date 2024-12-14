@@ -5,9 +5,9 @@ import rect from "../assets/box/rect.png";
 
 function Card() {
   return (
-    <div className="w-[auto]">
+    <div className="w-[auto] ml-40">
       <div className=" grid col-span-2 justify-end">
-        <div className="flex justify-end mr-[120px]">
+        <div className="flex justify-end">
           <div className="w-[317px] h m-10 mr-0">
             <BoxItem
               imgSrc={pie}
